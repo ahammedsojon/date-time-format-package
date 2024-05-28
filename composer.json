@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Ahammedsojon\\DateTimeFormat\\": "src/"
+            "AhammedSojon\\DateTimeFormat\\": "src/"
         }
     },
     "require": {},

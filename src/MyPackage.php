@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleVendor\DateTimeFormat;
+namespace AhammedSojon\DateTimeFormat;
 
 class DateTimeFormat {
     public function helloWorld() {

@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use ExampleVendor\DateTimeFormat\DateTimeFormat;
+use AhammedSojon\DateTimeFormat\DateTimeFormat;
 
-class DateTimeFormat extends TestCase {
+class DateTimeFormatTest extends TestCase {
     public function testHelloWorld() {
         $package = new MyPackage();
         $this->assertEquals('Hello, World!', $package->helloWorld());
