@@ -1,0 +1,15 @@
+{
+    "name": "ahammedsojon/date-time-format",
+    "description": "This is a basic date time format package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ahammedsojon\\date-time-format\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
