@@ -3,9 +3,10 @@
     "description": "This is a basic date time format package.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "ahammedsojon\\date-time-format\\": "src/"
+            "Ahammedsojon\\DateTimeFormat\\": "src/"
         }
     },
     "require": {},
