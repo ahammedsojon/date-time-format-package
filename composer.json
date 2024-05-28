@@ -3,6 +3,12 @@
     "description": "This is a basic date time format package.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Noyon Ahammed Sojon",
+            "email": "ahammedsojon000@gmail.com"
+        }
+    ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
