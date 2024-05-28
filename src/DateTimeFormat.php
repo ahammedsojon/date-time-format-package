@@ -3,9 +3,14 @@
 namespace AhammedSojon\DateTimeFormat;
 
 class DateTimeFormat {
-    public function helloWorld() {
-        echo 'sojon';
-        return "Hello, World!";
+    public function formatDateTime($dateString, $format) {
+        $date = new \DateTime($dateString);
+        return $date->format($format);
     }
-}
 
+    public function formatFullDate($dateString) {
+        $date = new \DateTime($dateString);
+        return $date->format('l, F j, Y');
+    }
+
+}
